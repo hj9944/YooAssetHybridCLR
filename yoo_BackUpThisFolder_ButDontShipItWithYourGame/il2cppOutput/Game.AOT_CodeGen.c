@@ -1,0 +1,673 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Boot::Awake()
+extern void Boot_Awake_mF6DDD562043F7CBA4F4E78BEB1EF831D6C88F6CB (void);
+// 0x00000002 System.Void Boot::Start()
+extern void Boot_Start_mA9C4B0C09FEBD652712895B58ADB4D278C7DAFD0 (void);
+// 0x00000003 System.Void Boot::.ctor()
+extern void Boot__ctor_mDDF5F660021FF57C211E49A617E38606A7430589 (void);
+// 0x00000004 System.Void PatchEventDefine::.ctor()
+extern void PatchEventDefine__ctor_m3F44373469CD1FF990B38D1CA7DC1CA4E9CA5982 (void);
+// 0x00000005 System.Void PatchEventDefine/InitializeFailed::SendEventMessage()
+extern void InitializeFailed_SendEventMessage_m33703F0B2C77AE3740E09A0CB379F7E458E2D93C (void);
+// 0x00000006 System.Void PatchEventDefine/InitializeFailed::.ctor()
+extern void InitializeFailed__ctor_m3EBFBDAC924B9240CED15E58E9BECDB110E99150 (void);
+// 0x00000007 System.Void PatchEventDefine/PatchStatesChange::SendEventMessage(System.String)
+extern void PatchStatesChange_SendEventMessage_m4F9BAEF6F2D43160EB2DA29283F16CF48FB05875 (void);
+// 0x00000008 System.Void PatchEventDefine/PatchStatesChange::.ctor()
+extern void PatchStatesChange__ctor_mD592E650A11605B09C42ECEA54DC65454F712ADC (void);
+// 0x00000009 System.Void PatchEventDefine/FoundUpdateFiles::SendEventMessage(System.Int32,System.Int64)
+extern void FoundUpdateFiles_SendEventMessage_mCA7143269655E077B3C4ED68D7AAAB82AAAC21C4 (void);
+// 0x0000000A System.Void PatchEventDefine/FoundUpdateFiles::.ctor()
+extern void FoundUpdateFiles__ctor_m40B7ADB5CCBCCB1DF4A28F052D6A5166D6902410 (void);
+// 0x0000000B System.Void PatchEventDefine/DownloadProgressUpdate::SendEventMessage(System.Int32,System.Int32,System.Int64,System.Int64)
+extern void DownloadProgressUpdate_SendEventMessage_mB1904ED965DA3106F1356DDA88716BE44C81F758 (void);
+// 0x0000000C System.Void PatchEventDefine/DownloadProgressUpdate::.ctor()
+extern void DownloadProgressUpdate__ctor_mB2B2F8FD891D5F8E8B63AF476DD0256630EC6A20 (void);
+// 0x0000000D System.Void PatchEventDefine/PackageVersionUpdateFailed::SendEventMessage()
+extern void PackageVersionUpdateFailed_SendEventMessage_m3DBD03727721CAAA645B2169A8CB6CD7FC98DE9F (void);
+// 0x0000000E System.Void PatchEventDefine/PackageVersionUpdateFailed::.ctor()
+extern void PackageVersionUpdateFailed__ctor_m96D392CE05D29C6E5A6B312358C6801E05E038C2 (void);
+// 0x0000000F System.Void PatchEventDefine/PatchManifestUpdateFailed::SendEventMessage()
+extern void PatchManifestUpdateFailed_SendEventMessage_m1550E727D03C9FE8C82C691731291A748E38AC3B (void);
+// 0x00000010 System.Void PatchEventDefine/PatchManifestUpdateFailed::.ctor()
+extern void PatchManifestUpdateFailed__ctor_m1820140A90577F3086AC3A224885FD1BCAECE170 (void);
+// 0x00000011 System.Void PatchEventDefine/WebFileDownloadFailed::SendEventMessage(System.String,System.String)
+extern void WebFileDownloadFailed_SendEventMessage_m9CC932EF230044CEAE1279F98FA582B49AFEC5B5 (void);
+// 0x00000012 System.Void PatchEventDefine/WebFileDownloadFailed::.ctor()
+extern void WebFileDownloadFailed__ctor_m930AD07F446C26A22F68C77A0EE4E97CA8D9F829 (void);
+// 0x00000013 System.Void UserEventDefine::.ctor()
+extern void UserEventDefine__ctor_mC73F9F4423194885DBDCE96E50958F135B788334 (void);
+// 0x00000014 System.Void UserEventDefine/UserTryInitialize::SendEventMessage()
+extern void UserTryInitialize_SendEventMessage_m47F8408A59BE0E1D3C7B2FAA8787D57E3D0BB5DB (void);
+// 0x00000015 System.Void UserEventDefine/UserTryInitialize::.ctor()
+extern void UserTryInitialize__ctor_m5379726EA4B657FE7142B2A0291D2402185DE4FD (void);
+// 0x00000016 System.Void UserEventDefine/UserBeginDownloadWebFiles::SendEventMessage()
+extern void UserBeginDownloadWebFiles_SendEventMessage_m3CB6410E2A15588A2B11AB23A6E1D113A5FF5C3B (void);
+// 0x00000017 System.Void UserEventDefine/UserBeginDownloadWebFiles::.ctor()
+extern void UserBeginDownloadWebFiles__ctor_m5423A384E384F211E7A117CB4E123269F030201D (void);
+// 0x00000018 System.Void UserEventDefine/UserTryUpdatePackageVersion::SendEventMessage()
+extern void UserTryUpdatePackageVersion_SendEventMessage_m8003A499E7CDA9EC8EDBB5F251A4143A69459249 (void);
+// 0x00000019 System.Void UserEventDefine/UserTryUpdatePackageVersion::.ctor()
+extern void UserTryUpdatePackageVersion__ctor_m711F752E3906DF064985AA8965CDB05560C3998B (void);
+// 0x0000001A System.Void UserEventDefine/UserTryUpdatePatchManifest::SendEventMessage()
+extern void UserTryUpdatePatchManifest_SendEventMessage_m230895C78B3F03352A4A6EE74DC52CA7E3D7E48B (void);
+// 0x0000001B System.Void UserEventDefine/UserTryUpdatePatchManifest::.ctor()
+extern void UserTryUpdatePatchManifest__ctor_mBF0D117D4DD9FAA3B1A63486A5CA6AD3EB9DCDDC (void);
+// 0x0000001C System.Void UserEventDefine/UserTryDownloadWebFiles::SendEventMessage()
+extern void UserTryDownloadWebFiles_SendEventMessage_m87D7CD59B04F8244CAE46119EFF254E5898AD883 (void);
+// 0x0000001D System.Void UserEventDefine/UserTryDownloadWebFiles::.ctor()
+extern void UserTryDownloadWebFiles__ctor_m0CF7B10F0D9946B69BE77A64B524F8664F6672D3 (void);
+// 0x0000001E System.Collections.Generic.List`1<System.String> LoadDll::get_AOTMetaAssemblyNames()
+extern void LoadDll_get_AOTMetaAssemblyNames_m1732076277F8E2F863ED13865ED1C97155512D42 (void);
+// 0x0000001F System.Byte[] LoadDll::GetAssetData(System.String)
+extern void LoadDll_GetAssetData_m374FA06BB0433DDEA81B5EA9A45AAD59AB30B8F0 (void);
+// 0x00000020 System.Void LoadDll::DownLoadAssets()
+extern void LoadDll_DownLoadAssets_mD1418017A180127C0DA33E2B4E1BF6DA6610AD75 (void);
+// 0x00000021 System.Void LoadDll::LoadMetadataForAOTAssemblies()
+extern void LoadDll_LoadMetadataForAOTAssemblies_m33C6D29214CBC75A05ACF99CFF0D4CDE68A17114 (void);
+// 0x00000022 System.Void LoadDll::.ctor()
+extern void LoadDll__ctor_mB0CFCE6413622B41EA587BF3B81AAABD99DB54AB (void);
+// 0x00000023 System.Void LoadDll::.cctor()
+extern void LoadDll__cctor_mA59452C9C7B81EA4160324C05355BD1C1EF17126 (void);
+// 0x00000024 System.Void StaticMono::.ctor()
+extern void StaticMono__ctor_m7CB2B4358B59ABB548167C7F82887999BB8FD78E (void);
+// 0x00000025 System.Void BundleStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.Boolean)
+extern void BundleStream__ctor_mAFB40599FFC12A4BE6BF6F7C89F2F3A97A471296 (void);
+// 0x00000026 System.Void BundleStream::.ctor(System.String,System.IO.FileMode)
+extern void BundleStream__ctor_m840B4190F52D7572DD370A659E77E2E024D99750 (void);
+// 0x00000027 System.Int32 BundleStream::Read(System.Byte[],System.Int32,System.Int32)
+extern void BundleStream_Read_m2D480D74C9FD4F7A73DB91D450330D446705DA6F (void);
+// 0x00000028 System.Void FsmClearCache::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmClearCache_UniFramework_Machine_IStateNode_OnCreate_mA8EB0552F29F4C39CA5390EE2324D08DAB2C42D3 (void);
+// 0x00000029 System.Void FsmClearCache::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmClearCache_UniFramework_Machine_IStateNode_OnEnter_mAFA797F2DE8998EAA5B0F89EFFFC16A136026C4B (void);
+// 0x0000002A System.Void FsmClearCache::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmClearCache_UniFramework_Machine_IStateNode_OnUpdate_mE4C397D09EE8327EE7CC77028331DFA8D4CD7EAC (void);
+// 0x0000002B System.Void FsmClearCache::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmClearCache_UniFramework_Machine_IStateNode_OnExit_m54F9C2280AAF5AF1B275124EEA7DF75D32E698A4 (void);
+// 0x0000002C System.Void FsmClearCache::Operation_Completed(YooAsset.AsyncOperationBase)
+extern void FsmClearCache_Operation_Completed_mD609552D02A14C44BB622969F58412E642425CD3 (void);
+// 0x0000002D System.Void FsmClearCache::.ctor()
+extern void FsmClearCache__ctor_mC40A30672138F710BCA6B600BDBE8DC40211E89A (void);
+// 0x0000002E System.Void FsmCreateDownloader::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmCreateDownloader_UniFramework_Machine_IStateNode_OnCreate_m85D4809BAA4906E8C329C13B5C22BC9E627566A7 (void);
+// 0x0000002F System.Void FsmCreateDownloader::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmCreateDownloader_UniFramework_Machine_IStateNode_OnEnter_mD9887B99A4B5E1D5DB65D3F38B146619F555344A (void);
+// 0x00000030 System.Void FsmCreateDownloader::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmCreateDownloader_UniFramework_Machine_IStateNode_OnUpdate_mD07BF63EBF116411A5B6AB18FDABBD9D31FF782B (void);
+// 0x00000031 System.Void FsmCreateDownloader::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmCreateDownloader_UniFramework_Machine_IStateNode_OnExit_m6619DD3F5E269A717F1A95D5779BA7936F819D79 (void);
+// 0x00000032 System.Collections.IEnumerator FsmCreateDownloader::CreateDownloader()
+extern void FsmCreateDownloader_CreateDownloader_mB70F715F11CADFF87B4863DC58A18E1575E8CB4E (void);
+// 0x00000033 System.Void FsmCreateDownloader::.ctor()
+extern void FsmCreateDownloader__ctor_m62139415F2580E66128BB331F30628357B832C39 (void);
+// 0x00000034 System.Void FsmCreateDownloader/<CreateDownloader>d__5::.ctor(System.Int32)
+extern void U3CCreateDownloaderU3Ed__5__ctor_mE7A68ACBE1EE131159D4AD7D4FCC4B7ABB424960 (void);
+// 0x00000035 System.Void FsmCreateDownloader/<CreateDownloader>d__5::System.IDisposable.Dispose()
+extern void U3CCreateDownloaderU3Ed__5_System_IDisposable_Dispose_m1366EA71446E08BBBE5F403293485482ECBD292C (void);
+// 0x00000036 System.Boolean FsmCreateDownloader/<CreateDownloader>d__5::MoveNext()
+extern void U3CCreateDownloaderU3Ed__5_MoveNext_mE5E4E0CF47C2DC21B79F625E93AF890C6515AF6F (void);
+// 0x00000037 System.Object FsmCreateDownloader/<CreateDownloader>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCreateDownloaderU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDF1B1473F51F2B120171AA4972F9684427301E87 (void);
+// 0x00000038 System.Void FsmCreateDownloader/<CreateDownloader>d__5::System.Collections.IEnumerator.Reset()
+extern void U3CCreateDownloaderU3Ed__5_System_Collections_IEnumerator_Reset_m60DF8DA5B1919C26018041B1463350FE4ABB7E40 (void);
+// 0x00000039 System.Object FsmCreateDownloader/<CreateDownloader>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3CCreateDownloaderU3Ed__5_System_Collections_IEnumerator_get_Current_mD870D576AE02692BFC2804B11D0C5F6158DA3609 (void);
+// 0x0000003A System.Void FsmDownloadFiles::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmDownloadFiles_UniFramework_Machine_IStateNode_OnCreate_m35BDF02E57C1B21C25752016465299BEBEE49BF3 (void);
+// 0x0000003B System.Void FsmDownloadFiles::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmDownloadFiles_UniFramework_Machine_IStateNode_OnEnter_m55AEA72A6294762113A58F4EC06A4F4219EC5E59 (void);
+// 0x0000003C System.Void FsmDownloadFiles::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmDownloadFiles_UniFramework_Machine_IStateNode_OnUpdate_mEB0897AB2A6D65317D5121C1A30E4BDCD5C74F6D (void);
+// 0x0000003D System.Void FsmDownloadFiles::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmDownloadFiles_UniFramework_Machine_IStateNode_OnExit_m89967C68215330E03D0378A191F9B638C8FFEE51 (void);
+// 0x0000003E System.Collections.IEnumerator FsmDownloadFiles::BeginDownload()
+extern void FsmDownloadFiles_BeginDownload_m82005DA2B712CEDDA60B1F0346C145B982729528 (void);
+// 0x0000003F System.Void FsmDownloadFiles::.ctor()
+extern void FsmDownloadFiles__ctor_m72D00DC022524CDBBA60E296039A3E60598E834F (void);
+// 0x00000040 System.Void FsmDownloadFiles/<BeginDownload>d__5::.ctor(System.Int32)
+extern void U3CBeginDownloadU3Ed__5__ctor_m1A687D9C4732ACC9883FEE5BBABCD2869A820DDE (void);
+// 0x00000041 System.Void FsmDownloadFiles/<BeginDownload>d__5::System.IDisposable.Dispose()
+extern void U3CBeginDownloadU3Ed__5_System_IDisposable_Dispose_mE685E923EC25DC2F6652608046677804139844D6 (void);
+// 0x00000042 System.Boolean FsmDownloadFiles/<BeginDownload>d__5::MoveNext()
+extern void U3CBeginDownloadU3Ed__5_MoveNext_mBA9470E7ACA7AE439C6B0E3F4558A797C85E629F (void);
+// 0x00000043 System.Object FsmDownloadFiles/<BeginDownload>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CBeginDownloadU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0EFC762C986D8EBDAC8D6B2000696C76062DB001 (void);
+// 0x00000044 System.Void FsmDownloadFiles/<BeginDownload>d__5::System.Collections.IEnumerator.Reset()
+extern void U3CBeginDownloadU3Ed__5_System_Collections_IEnumerator_Reset_mFDD84193CC4593908A923AA010A28194632B06E1 (void);
+// 0x00000045 System.Object FsmDownloadFiles/<BeginDownload>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3CBeginDownloadU3Ed__5_System_Collections_IEnumerator_get_Current_m0FADCC3FCAE25786D009E61672723C21B0FC652D (void);
+// 0x00000046 System.Void FsmDownloadOver::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmDownloadOver_UniFramework_Machine_IStateNode_OnCreate_m8F1B3CF6950A8E3935A2B2CBA01D6543CD6BA89D (void);
+// 0x00000047 System.Void FsmDownloadOver::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmDownloadOver_UniFramework_Machine_IStateNode_OnEnter_m57DDF326A0B65A25A0DF6C8B82D81B33046128AD (void);
+// 0x00000048 System.Void FsmDownloadOver::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmDownloadOver_UniFramework_Machine_IStateNode_OnUpdate_mE2E7D2EC55FA84536A230948F3BB65FA2EEE498C (void);
+// 0x00000049 System.Void FsmDownloadOver::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmDownloadOver_UniFramework_Machine_IStateNode_OnExit_m88D40C139194FDDEB1F1DC869950CBD5A343F92A (void);
+// 0x0000004A System.Void FsmDownloadOver::.ctor()
+extern void FsmDownloadOver__ctor_mB88077A140AF3390EE0116EDE4CDE26543DE57F1 (void);
+// 0x0000004B System.Void FsmInitialize::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmInitialize_UniFramework_Machine_IStateNode_OnCreate_mE88C7CE5C2F3BE5A176283BEC5D8FE716F9D216E (void);
+// 0x0000004C System.Void FsmInitialize::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmInitialize_UniFramework_Machine_IStateNode_OnEnter_m6DA4950FD762C2662F17D115F132E964D260132B (void);
+// 0x0000004D System.Void FsmInitialize::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmInitialize_UniFramework_Machine_IStateNode_OnUpdate_m1314802843DA77F3D6D3328A509B72637CC9D475 (void);
+// 0x0000004E System.Void FsmInitialize::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmInitialize_UniFramework_Machine_IStateNode_OnExit_m7DBE0713550389573817DBDA191F9A21E6F44B3F (void);
+// 0x0000004F System.Collections.IEnumerator FsmInitialize::InitPackage()
+extern void FsmInitialize_InitPackage_mBA9A994A86FA8D6CA07835986DC4F4278F4BB84F (void);
+// 0x00000050 System.String FsmInitialize::GetHostServerURL()
+extern void FsmInitialize_GetHostServerURL_m56E5EF4DFBBE12167D20754B6ED87A993BD8288C (void);
+// 0x00000051 System.Void FsmInitialize::.ctor()
+extern void FsmInitialize__ctor_m679D58B069A738775B172E120A5B879561BCD20A (void);
+// 0x00000052 System.Boolean FsmInitialize/GameQueryServices::QueryStreamingAssets(System.String)
+extern void GameQueryServices_QueryStreamingAssets_m933AE905848F22919B3667BB9A0BAE74E528FB65 (void);
+// 0x00000053 System.Void FsmInitialize/GameQueryServices::.ctor()
+extern void GameQueryServices__ctor_m0CEF885612A3997821E09A4CFA311A01148786D8 (void);
+// 0x00000054 System.UInt64 FsmInitialize/GameDecryptionServices::LoadFromFileOffset(YooAsset.DecryptFileInfo)
+extern void GameDecryptionServices_LoadFromFileOffset_m4F2AFF083B5AF7170339C02D062812F0CC29D058 (void);
+// 0x00000055 System.Byte[] FsmInitialize/GameDecryptionServices::LoadFromMemory(YooAsset.DecryptFileInfo)
+extern void GameDecryptionServices_LoadFromMemory_m72C46B67A9E6B5D99A228A91384374C8E447A603 (void);
+// 0x00000056 System.IO.FileStream FsmInitialize/GameDecryptionServices::LoadFromStream(YooAsset.DecryptFileInfo)
+extern void GameDecryptionServices_LoadFromStream_mBB4A4EC0F7C0F88ECFA14FE16FAA69753AE87B60 (void);
+// 0x00000057 System.UInt32 FsmInitialize/GameDecryptionServices::GetManagedReadBufferSize()
+extern void GameDecryptionServices_GetManagedReadBufferSize_m4B5DEEA7A66FF68E80AD56FAE4C13B4D03B2FED7 (void);
+// 0x00000058 System.Void FsmInitialize/GameDecryptionServices::.ctor()
+extern void GameDecryptionServices__ctor_mA28D6C0D83E7539237E792CCBE2FD831161B8AC1 (void);
+// 0x00000059 System.Void FsmInitialize/<InitPackage>d__5::.ctor(System.Int32)
+extern void U3CInitPackageU3Ed__5__ctor_m62F547B93078F64453D079C10F1442E5B80A4DC7 (void);
+// 0x0000005A System.Void FsmInitialize/<InitPackage>d__5::System.IDisposable.Dispose()
+extern void U3CInitPackageU3Ed__5_System_IDisposable_Dispose_m52EBEBD15E16007F84EEF0DF5A767CC246C59A8C (void);
+// 0x0000005B System.Boolean FsmInitialize/<InitPackage>d__5::MoveNext()
+extern void U3CInitPackageU3Ed__5_MoveNext_mAA42BC24E6BB058B93F553B825935AB8DB6C82CD (void);
+// 0x0000005C System.Object FsmInitialize/<InitPackage>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CInitPackageU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE4CEBE81808422611843F52F980FC1AC7BE16F0D (void);
+// 0x0000005D System.Void FsmInitialize/<InitPackage>d__5::System.Collections.IEnumerator.Reset()
+extern void U3CInitPackageU3Ed__5_System_Collections_IEnumerator_Reset_m57B11D336DC3FCB6242F1116A45B03B9C064F7EB (void);
+// 0x0000005E System.Object FsmInitialize/<InitPackage>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3CInitPackageU3Ed__5_System_Collections_IEnumerator_get_Current_m6EBCE456EBFC7C1D56F6F8D2A821314633587254 (void);
+// 0x0000005F System.Void FsmPatchDone::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmPatchDone_UniFramework_Machine_IStateNode_OnCreate_m44CC57A211DB1ADEF2B9D7790DF15631978CE2AE (void);
+// 0x00000060 System.Void FsmPatchDone::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmPatchDone_UniFramework_Machine_IStateNode_OnEnter_m633DAF6E2F91F17F5D9BCE9FEAF8D89386B1C2B0 (void);
+// 0x00000061 System.Void FsmPatchDone::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmPatchDone_UniFramework_Machine_IStateNode_OnUpdate_mA0BA2FF24E09DCAF24FC0E03C1B72A1C8E4B792F (void);
+// 0x00000062 System.Void FsmPatchDone::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmPatchDone_UniFramework_Machine_IStateNode_OnExit_m2B1BC2E929CD87CA60D9DA795AAF94BF9BB9ED2B (void);
+// 0x00000063 System.Void FsmPatchDone::.ctor()
+extern void FsmPatchDone__ctor_m483D8E195DE84CCD7BFA3E98143E6AC9B5B04061 (void);
+// 0x00000064 System.Void FsmPatchPrepare::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmPatchPrepare_UniFramework_Machine_IStateNode_OnCreate_mC639A3F9A8B2913A75D789C41E29B5BD1935CCAA (void);
+// 0x00000065 System.Void FsmPatchPrepare::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmPatchPrepare_UniFramework_Machine_IStateNode_OnEnter_m81086DD5CBE19FF2D0EC0E6CC14C2E61DBB35985 (void);
+// 0x00000066 System.Void FsmPatchPrepare::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmPatchPrepare_UniFramework_Machine_IStateNode_OnUpdate_m31FB828C27EF22E82B0A87A2BD222893DC2FB3D7 (void);
+// 0x00000067 System.Void FsmPatchPrepare::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmPatchPrepare_UniFramework_Machine_IStateNode_OnExit_mE5E9129029520BFBF81FC2928FAEC7541E46B973 (void);
+// 0x00000068 System.Void FsmPatchPrepare::.ctor()
+extern void FsmPatchPrepare__ctor_m7DA6FF6F76A876C545A12EDB64162F53F21BB917 (void);
+// 0x00000069 System.Void FsmUpdateManifest::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmUpdateManifest_UniFramework_Machine_IStateNode_OnCreate_m166C92ACFAD517F2990AA97937CBC6C2D20B43A9 (void);
+// 0x0000006A System.Void FsmUpdateManifest::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmUpdateManifest_UniFramework_Machine_IStateNode_OnEnter_m4A63061E30E250B0B8D5BA474112C644685C6248 (void);
+// 0x0000006B System.Void FsmUpdateManifest::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmUpdateManifest_UniFramework_Machine_IStateNode_OnUpdate_m95A734CE0BBAF85C72D502308D1FCEEB78A611F9 (void);
+// 0x0000006C System.Void FsmUpdateManifest::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmUpdateManifest_UniFramework_Machine_IStateNode_OnExit_m97A57C6B9B563B998A16DE074AD2C7B833CBCFC9 (void);
+// 0x0000006D System.Collections.IEnumerator FsmUpdateManifest::UpdateManifest()
+extern void FsmUpdateManifest_UpdateManifest_m352EBCF96A12B036403BF6EDD66A77D82E759928 (void);
+// 0x0000006E System.Void FsmUpdateManifest::.ctor()
+extern void FsmUpdateManifest__ctor_m416AC73361705B07B29B6E27A71A18EEA0517C2B (void);
+// 0x0000006F System.Void FsmUpdateManifest/<UpdateManifest>d__5::.ctor(System.Int32)
+extern void U3CUpdateManifestU3Ed__5__ctor_mC6827625ACA98CA50C6868E0776753F4B40B873E (void);
+// 0x00000070 System.Void FsmUpdateManifest/<UpdateManifest>d__5::System.IDisposable.Dispose()
+extern void U3CUpdateManifestU3Ed__5_System_IDisposable_Dispose_m9C690F08381AA1EF0D9B80381F0849C74439F5E4 (void);
+// 0x00000071 System.Boolean FsmUpdateManifest/<UpdateManifest>d__5::MoveNext()
+extern void U3CUpdateManifestU3Ed__5_MoveNext_mF6862C6EC3ED18EF1E44AE5190DF248AC7C33DE0 (void);
+// 0x00000072 System.Object FsmUpdateManifest/<UpdateManifest>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CUpdateManifestU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m67CCAE7338D18B3B484223BFFD677C1C7A6B7AEB (void);
+// 0x00000073 System.Void FsmUpdateManifest/<UpdateManifest>d__5::System.Collections.IEnumerator.Reset()
+extern void U3CUpdateManifestU3Ed__5_System_Collections_IEnumerator_Reset_m56DD2962DE54C63EAB4A8F4AE4354713721F7BBE (void);
+// 0x00000074 System.Object FsmUpdateManifest/<UpdateManifest>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3CUpdateManifestU3Ed__5_System_Collections_IEnumerator_get_Current_mD98AF779FF5B5C48398167A0E962ADA5D356CD97 (void);
+// 0x00000075 System.Void FsmUpdateVersion::UniFramework.Machine.IStateNode.OnCreate(UniFramework.Machine.StateMachine)
+extern void FsmUpdateVersion_UniFramework_Machine_IStateNode_OnCreate_m06379A3B5C30A3B2CBA3F05BD8FE50B423A89A3E (void);
+// 0x00000076 System.Void FsmUpdateVersion::UniFramework.Machine.IStateNode.OnEnter()
+extern void FsmUpdateVersion_UniFramework_Machine_IStateNode_OnEnter_m06EE9C67CC59C141FC8217D0E16CD576B82A1C91 (void);
+// 0x00000077 System.Void FsmUpdateVersion::UniFramework.Machine.IStateNode.OnUpdate()
+extern void FsmUpdateVersion_UniFramework_Machine_IStateNode_OnUpdate_m6BC8F9C4911DFFD604396C2861D7D158FBC83593 (void);
+// 0x00000078 System.Void FsmUpdateVersion::UniFramework.Machine.IStateNode.OnExit()
+extern void FsmUpdateVersion_UniFramework_Machine_IStateNode_OnExit_m8B27FD0C2CF80C471D9AA6F6DB7C64B8041D5E58 (void);
+// 0x00000079 System.Collections.IEnumerator FsmUpdateVersion::GetStaticVersion()
+extern void FsmUpdateVersion_GetStaticVersion_mDC60F4C2DC9FB868E5699C442A99E419EE9BD336 (void);
+// 0x0000007A System.Void FsmUpdateVersion::.ctor()
+extern void FsmUpdateVersion__ctor_m064D7840234BE986484CCCC310E45C02CB431E0D (void);
+// 0x0000007B System.Void FsmUpdateVersion/<GetStaticVersion>d__5::.ctor(System.Int32)
+extern void U3CGetStaticVersionU3Ed__5__ctor_m599743AC8AF895B5DAEAE0C031BA22630EB9C371 (void);
+// 0x0000007C System.Void FsmUpdateVersion/<GetStaticVersion>d__5::System.IDisposable.Dispose()
+extern void U3CGetStaticVersionU3Ed__5_System_IDisposable_Dispose_m5758FD1F269B0EDAF2E6EABC5A8975494A388FD6 (void);
+// 0x0000007D System.Boolean FsmUpdateVersion/<GetStaticVersion>d__5::MoveNext()
+extern void U3CGetStaticVersionU3Ed__5_MoveNext_m716BC5C7C4FF97B2A00F3A8C8D2492DF4EF55E71 (void);
+// 0x0000007E System.Object FsmUpdateVersion/<GetStaticVersion>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CGetStaticVersionU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA3354E9127630411488CE112C5DE1777657EDC0C (void);
+// 0x0000007F System.Void FsmUpdateVersion/<GetStaticVersion>d__5::System.Collections.IEnumerator.Reset()
+extern void U3CGetStaticVersionU3Ed__5_System_Collections_IEnumerator_Reset_m4B011F057DDD138BE8E3B93DBCAF10B74758163B (void);
+// 0x00000080 System.Object FsmUpdateVersion/<GetStaticVersion>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3CGetStaticVersionU3Ed__5_System_Collections_IEnumerator_get_Current_mF54EF7F4678C60FA419B6A733375E2A585CCDA1C (void);
+// 0x00000081 System.Void PatchManager::set_PlayMode(YooAsset.EPlayMode)
+extern void PatchManager_set_PlayMode_m7035AE13BE4FD0255645A55A8453F746C71E7729 (void);
+// 0x00000082 YooAsset.EPlayMode PatchManager::get_PlayMode()
+extern void PatchManager_get_PlayMode_m82A84F614FA86C7B63283872AFBEEAAA3F8371FD (void);
+// 0x00000083 System.Void PatchManager::set_PackageVersion(System.String)
+extern void PatchManager_set_PackageVersion_mE5D8DBC27220A2DC2468E51FEE0A873B6A8CDC28 (void);
+// 0x00000084 System.String PatchManager::get_PackageVersion()
+extern void PatchManager_get_PackageVersion_m987DC22C7E29CE5880501C81CB8D8EC35BDB6F4B (void);
+// 0x00000085 System.Void PatchManager::set_Downloader(YooAsset.PatchDownloaderOperation)
+extern void PatchManager_set_Downloader_m502047C425B985DE169D9EDC09B37B37186D2037 (void);
+// 0x00000086 YooAsset.PatchDownloaderOperation PatchManager::get_Downloader()
+extern void PatchManager_get_Downloader_m64AF4F2381745D3A2BE02AC94691CB68582A5C8D (void);
+// 0x00000087 System.Void PatchManager::UniFramework.Module.IModule.OnCreate(System.Object)
+extern void PatchManager_UniFramework_Module_IModule_OnCreate_m722DABE389B0910E339BCD20DFE6E8418F07CCFD (void);
+// 0x00000088 System.Void PatchManager::UniFramework.Module.IModule.OnDestroy()
+extern void PatchManager_UniFramework_Module_IModule_OnDestroy_mAAE82E880C85E1E95A9C7DAE69BDC1CB1E3202FF (void);
+// 0x00000089 System.Void PatchManager::UniFramework.Module.IModule.OnUpdate()
+extern void PatchManager_UniFramework_Module_IModule_OnUpdate_m4FE79409EDB91F74C8DDAF3A495DA63B160743A0 (void);
+// 0x0000008A System.Void PatchManager::Run(YooAsset.EPlayMode)
+extern void PatchManager_Run_mAF20426055C2CA3C74746C9C0266595D183465CC (void);
+// 0x0000008B System.Void PatchManager::OnHandleEventMessage(UniFramework.Event.IEventMessage)
+extern void PatchManager_OnHandleEventMessage_mABA6CDF4EAD6062E2626794221CDF53D91FFC051 (void);
+// 0x0000008C System.Void PatchManager::.ctor()
+extern void PatchManager__ctor_m54E7EF17E8AA09CF7BDEAB27261A5D069A635A0A (void);
+// 0x0000008D System.Void PatchWindow::Awake()
+extern void PatchWindow_Awake_m4AE7C2E50EC12691B46D92E59C39B4D19F34FDA4 (void);
+// 0x0000008E System.Void PatchWindow::OnDestroy()
+extern void PatchWindow_OnDestroy_m3D0F2942CCC31682AA817EDC5E11F7A0410E0D05 (void);
+// 0x0000008F System.Void PatchWindow::OnHandleEventMessage(UniFramework.Event.IEventMessage)
+extern void PatchWindow_OnHandleEventMessage_mDB26AB9E6E23EDF8BDD075A648D8030C7508D457 (void);
+// 0x00000090 System.Void PatchWindow::ShowMessageBox(System.String,System.Action)
+extern void PatchWindow_ShowMessageBox_m2EF41C080F87A4209C408595D31DD56EC8B0CF39 (void);
+// 0x00000091 System.Void PatchWindow::.ctor()
+extern void PatchWindow__ctor_m9B36F9F5C4210801D1C93945007A9CFEA9C86AA1 (void);
+// 0x00000092 System.Boolean PatchWindow/MessageBox::get_ActiveSelf()
+extern void MessageBox_get_ActiveSelf_m13D06932DF86ECC244782FC0FAEB8F58B86BCE85 (void);
+// 0x00000093 System.Void PatchWindow/MessageBox::Create(UnityEngine.GameObject)
+extern void MessageBox_Create_m1286B4B2884C0407A11E1FFBBE003831B8A96735 (void);
+// 0x00000094 System.Void PatchWindow/MessageBox::Show(System.String,System.Action)
+extern void MessageBox_Show_m649B3FE5C1FBA9074058C463B874345AF2954491 (void);
+// 0x00000095 System.Void PatchWindow/MessageBox::Hide()
+extern void MessageBox_Hide_mD1A361539BAE960221A8CFF6DD61F3711B75AEA1 (void);
+// 0x00000096 System.Void PatchWindow/MessageBox::OnClickYes()
+extern void MessageBox_OnClickYes_mF7118012BDDF4F4B800E3FBD17C891F1F8B42AE8 (void);
+// 0x00000097 System.Void PatchWindow/MessageBox::.ctor()
+extern void MessageBox__ctor_m99CF3D7B88542E8F94126BC4C819A0D01B0CB7C1 (void);
+// 0x00000098 System.Void PatchWindow/<>c::.cctor()
+extern void U3CU3Ec__cctor_m35B4AA8CEDA79DCC0E4015F85F9DC9A1392AD2A5 (void);
+// 0x00000099 System.Void PatchWindow/<>c::.ctor()
+extern void U3CU3Ec__ctor_m76A4F4CD21BB68375B27A01345C01455B599A10C (void);
+// 0x0000009A System.Void PatchWindow/<>c::<OnHandleEventMessage>b__8_0()
+extern void U3CU3Ec_U3COnHandleEventMessageU3Eb__8_0_m42D6E4890B001E95349CA3C02412AE0DD063A9AD (void);
+// 0x0000009B System.Void PatchWindow/<>c::<OnHandleEventMessage>b__8_1()
+extern void U3CU3Ec_U3COnHandleEventMessageU3Eb__8_1_m62DF5CCDCAF37383D4A8828AD8E4DECCB511C2B6 (void);
+// 0x0000009C System.Void PatchWindow/<>c::<OnHandleEventMessage>b__8_2()
+extern void U3CU3Ec_U3COnHandleEventMessageU3Eb__8_2_mCFEFC972F6A55C24CCB30B7DF1E818963A675B71 (void);
+// 0x0000009D System.Void PatchWindow/<>c::<OnHandleEventMessage>b__8_3()
+extern void U3CU3Ec_U3COnHandleEventMessageU3Eb__8_3_m1B326F289A3089A9A17C3331063B52A62DB46F30 (void);
+// 0x0000009E System.Void PatchWindow/<>c::<OnHandleEventMessage>b__8_4()
+extern void U3CU3Ec_U3COnHandleEventMessageU3Eb__8_4_mF0D5E798E888DEB67FA4B7CFEEFBBFDFE94A9413 (void);
+static Il2CppMethodPointer s_methodPointers[158] = 
+{
+	Boot_Awake_mF6DDD562043F7CBA4F4E78BEB1EF831D6C88F6CB,
+	Boot_Start_mA9C4B0C09FEBD652712895B58ADB4D278C7DAFD0,
+	Boot__ctor_mDDF5F660021FF57C211E49A617E38606A7430589,
+	PatchEventDefine__ctor_m3F44373469CD1FF990B38D1CA7DC1CA4E9CA5982,
+	InitializeFailed_SendEventMessage_m33703F0B2C77AE3740E09A0CB379F7E458E2D93C,
+	InitializeFailed__ctor_m3EBFBDAC924B9240CED15E58E9BECDB110E99150,
+	PatchStatesChange_SendEventMessage_m4F9BAEF6F2D43160EB2DA29283F16CF48FB05875,
+	PatchStatesChange__ctor_mD592E650A11605B09C42ECEA54DC65454F712ADC,
+	FoundUpdateFiles_SendEventMessage_mCA7143269655E077B3C4ED68D7AAAB82AAAC21C4,
+	FoundUpdateFiles__ctor_m40B7ADB5CCBCCB1DF4A28F052D6A5166D6902410,
+	DownloadProgressUpdate_SendEventMessage_mB1904ED965DA3106F1356DDA88716BE44C81F758,
+	DownloadProgressUpdate__ctor_mB2B2F8FD891D5F8E8B63AF476DD0256630EC6A20,
+	PackageVersionUpdateFailed_SendEventMessage_m3DBD03727721CAAA645B2169A8CB6CD7FC98DE9F,
+	PackageVersionUpdateFailed__ctor_m96D392CE05D29C6E5A6B312358C6801E05E038C2,
+	PatchManifestUpdateFailed_SendEventMessage_m1550E727D03C9FE8C82C691731291A748E38AC3B,
+	PatchManifestUpdateFailed__ctor_m1820140A90577F3086AC3A224885FD1BCAECE170,
+	WebFileDownloadFailed_SendEventMessage_m9CC932EF230044CEAE1279F98FA582B49AFEC5B5,
+	WebFileDownloadFailed__ctor_m930AD07F446C26A22F68C77A0EE4E97CA8D9F829,
+	UserEventDefine__ctor_mC73F9F4423194885DBDCE96E50958F135B788334,
+	UserTryInitialize_SendEventMessage_m47F8408A59BE0E1D3C7B2FAA8787D57E3D0BB5DB,
+	UserTryInitialize__ctor_m5379726EA4B657FE7142B2A0291D2402185DE4FD,
+	UserBeginDownloadWebFiles_SendEventMessage_m3CB6410E2A15588A2B11AB23A6E1D113A5FF5C3B,
+	UserBeginDownloadWebFiles__ctor_m5423A384E384F211E7A117CB4E123269F030201D,
+	UserTryUpdatePackageVersion_SendEventMessage_m8003A499E7CDA9EC8EDBB5F251A4143A69459249,
+	UserTryUpdatePackageVersion__ctor_m711F752E3906DF064985AA8965CDB05560C3998B,
+	UserTryUpdatePatchManifest_SendEventMessage_m230895C78B3F03352A4A6EE74DC52CA7E3D7E48B,
+	UserTryUpdatePatchManifest__ctor_mBF0D117D4DD9FAA3B1A63486A5CA6AD3EB9DCDDC,
+	UserTryDownloadWebFiles_SendEventMessage_m87D7CD59B04F8244CAE46119EFF254E5898AD883,
+	UserTryDownloadWebFiles__ctor_m0CF7B10F0D9946B69BE77A64B524F8664F6672D3,
+	LoadDll_get_AOTMetaAssemblyNames_m1732076277F8E2F863ED13865ED1C97155512D42,
+	LoadDll_GetAssetData_m374FA06BB0433DDEA81B5EA9A45AAD59AB30B8F0,
+	LoadDll_DownLoadAssets_mD1418017A180127C0DA33E2B4E1BF6DA6610AD75,
+	LoadDll_LoadMetadataForAOTAssemblies_m33C6D29214CBC75A05ACF99CFF0D4CDE68A17114,
+	LoadDll__ctor_mB0CFCE6413622B41EA587BF3B81AAABD99DB54AB,
+	LoadDll__cctor_mA59452C9C7B81EA4160324C05355BD1C1EF17126,
+	StaticMono__ctor_m7CB2B4358B59ABB548167C7F82887999BB8FD78E,
+	BundleStream__ctor_mAFB40599FFC12A4BE6BF6F7C89F2F3A97A471296,
+	BundleStream__ctor_m840B4190F52D7572DD370A659E77E2E024D99750,
+	BundleStream_Read_m2D480D74C9FD4F7A73DB91D450330D446705DA6F,
+	FsmClearCache_UniFramework_Machine_IStateNode_OnCreate_mA8EB0552F29F4C39CA5390EE2324D08DAB2C42D3,
+	FsmClearCache_UniFramework_Machine_IStateNode_OnEnter_mAFA797F2DE8998EAA5B0F89EFFFC16A136026C4B,
+	FsmClearCache_UniFramework_Machine_IStateNode_OnUpdate_mE4C397D09EE8327EE7CC77028331DFA8D4CD7EAC,
+	FsmClearCache_UniFramework_Machine_IStateNode_OnExit_m54F9C2280AAF5AF1B275124EEA7DF75D32E698A4,
+	FsmClearCache_Operation_Completed_mD609552D02A14C44BB622969F58412E642425CD3,
+	FsmClearCache__ctor_mC40A30672138F710BCA6B600BDBE8DC40211E89A,
+	FsmCreateDownloader_UniFramework_Machine_IStateNode_OnCreate_m85D4809BAA4906E8C329C13B5C22BC9E627566A7,
+	FsmCreateDownloader_UniFramework_Machine_IStateNode_OnEnter_mD9887B99A4B5E1D5DB65D3F38B146619F555344A,
+	FsmCreateDownloader_UniFramework_Machine_IStateNode_OnUpdate_mD07BF63EBF116411A5B6AB18FDABBD9D31FF782B,
+	FsmCreateDownloader_UniFramework_Machine_IStateNode_OnExit_m6619DD3F5E269A717F1A95D5779BA7936F819D79,
+	FsmCreateDownloader_CreateDownloader_mB70F715F11CADFF87B4863DC58A18E1575E8CB4E,
+	FsmCreateDownloader__ctor_m62139415F2580E66128BB331F30628357B832C39,
+	U3CCreateDownloaderU3Ed__5__ctor_mE7A68ACBE1EE131159D4AD7D4FCC4B7ABB424960,
+	U3CCreateDownloaderU3Ed__5_System_IDisposable_Dispose_m1366EA71446E08BBBE5F403293485482ECBD292C,
+	U3CCreateDownloaderU3Ed__5_MoveNext_mE5E4E0CF47C2DC21B79F625E93AF890C6515AF6F,
+	U3CCreateDownloaderU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDF1B1473F51F2B120171AA4972F9684427301E87,
+	U3CCreateDownloaderU3Ed__5_System_Collections_IEnumerator_Reset_m60DF8DA5B1919C26018041B1463350FE4ABB7E40,
+	U3CCreateDownloaderU3Ed__5_System_Collections_IEnumerator_get_Current_mD870D576AE02692BFC2804B11D0C5F6158DA3609,
+	FsmDownloadFiles_UniFramework_Machine_IStateNode_OnCreate_m35BDF02E57C1B21C25752016465299BEBEE49BF3,
+	FsmDownloadFiles_UniFramework_Machine_IStateNode_OnEnter_m55AEA72A6294762113A58F4EC06A4F4219EC5E59,
+	FsmDownloadFiles_UniFramework_Machine_IStateNode_OnUpdate_mEB0897AB2A6D65317D5121C1A30E4BDCD5C74F6D,
+	FsmDownloadFiles_UniFramework_Machine_IStateNode_OnExit_m89967C68215330E03D0378A191F9B638C8FFEE51,
+	FsmDownloadFiles_BeginDownload_m82005DA2B712CEDDA60B1F0346C145B982729528,
+	FsmDownloadFiles__ctor_m72D00DC022524CDBBA60E296039A3E60598E834F,
+	U3CBeginDownloadU3Ed__5__ctor_m1A687D9C4732ACC9883FEE5BBABCD2869A820DDE,
+	U3CBeginDownloadU3Ed__5_System_IDisposable_Dispose_mE685E923EC25DC2F6652608046677804139844D6,
+	U3CBeginDownloadU3Ed__5_MoveNext_mBA9470E7ACA7AE439C6B0E3F4558A797C85E629F,
+	U3CBeginDownloadU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0EFC762C986D8EBDAC8D6B2000696C76062DB001,
+	U3CBeginDownloadU3Ed__5_System_Collections_IEnumerator_Reset_mFDD84193CC4593908A923AA010A28194632B06E1,
+	U3CBeginDownloadU3Ed__5_System_Collections_IEnumerator_get_Current_m0FADCC3FCAE25786D009E61672723C21B0FC652D,
+	FsmDownloadOver_UniFramework_Machine_IStateNode_OnCreate_m8F1B3CF6950A8E3935A2B2CBA01D6543CD6BA89D,
+	FsmDownloadOver_UniFramework_Machine_IStateNode_OnEnter_m57DDF326A0B65A25A0DF6C8B82D81B33046128AD,
+	FsmDownloadOver_UniFramework_Machine_IStateNode_OnUpdate_mE2E7D2EC55FA84536A230948F3BB65FA2EEE498C,
+	FsmDownloadOver_UniFramework_Machine_IStateNode_OnExit_m88D40C139194FDDEB1F1DC869950CBD5A343F92A,
+	FsmDownloadOver__ctor_mB88077A140AF3390EE0116EDE4CDE26543DE57F1,
+	FsmInitialize_UniFramework_Machine_IStateNode_OnCreate_mE88C7CE5C2F3BE5A176283BEC5D8FE716F9D216E,
+	FsmInitialize_UniFramework_Machine_IStateNode_OnEnter_m6DA4950FD762C2662F17D115F132E964D260132B,
+	FsmInitialize_UniFramework_Machine_IStateNode_OnUpdate_m1314802843DA77F3D6D3328A509B72637CC9D475,
+	FsmInitialize_UniFramework_Machine_IStateNode_OnExit_m7DBE0713550389573817DBDA191F9A21E6F44B3F,
+	FsmInitialize_InitPackage_mBA9A994A86FA8D6CA07835986DC4F4278F4BB84F,
+	FsmInitialize_GetHostServerURL_m56E5EF4DFBBE12167D20754B6ED87A993BD8288C,
+	FsmInitialize__ctor_m679D58B069A738775B172E120A5B879561BCD20A,
+	GameQueryServices_QueryStreamingAssets_m933AE905848F22919B3667BB9A0BAE74E528FB65,
+	GameQueryServices__ctor_m0CEF885612A3997821E09A4CFA311A01148786D8,
+	GameDecryptionServices_LoadFromFileOffset_m4F2AFF083B5AF7170339C02D062812F0CC29D058,
+	GameDecryptionServices_LoadFromMemory_m72C46B67A9E6B5D99A228A91384374C8E447A603,
+	GameDecryptionServices_LoadFromStream_mBB4A4EC0F7C0F88ECFA14FE16FAA69753AE87B60,
+	GameDecryptionServices_GetManagedReadBufferSize_m4B5DEEA7A66FF68E80AD56FAE4C13B4D03B2FED7,
+	GameDecryptionServices__ctor_mA28D6C0D83E7539237E792CCBE2FD831161B8AC1,
+	U3CInitPackageU3Ed__5__ctor_m62F547B93078F64453D079C10F1442E5B80A4DC7,
+	U3CInitPackageU3Ed__5_System_IDisposable_Dispose_m52EBEBD15E16007F84EEF0DF5A767CC246C59A8C,
+	U3CInitPackageU3Ed__5_MoveNext_mAA42BC24E6BB058B93F553B825935AB8DB6C82CD,
+	U3CInitPackageU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE4CEBE81808422611843F52F980FC1AC7BE16F0D,
+	U3CInitPackageU3Ed__5_System_Collections_IEnumerator_Reset_m57B11D336DC3FCB6242F1116A45B03B9C064F7EB,
+	U3CInitPackageU3Ed__5_System_Collections_IEnumerator_get_Current_m6EBCE456EBFC7C1D56F6F8D2A821314633587254,
+	FsmPatchDone_UniFramework_Machine_IStateNode_OnCreate_m44CC57A211DB1ADEF2B9D7790DF15631978CE2AE,
+	FsmPatchDone_UniFramework_Machine_IStateNode_OnEnter_m633DAF6E2F91F17F5D9BCE9FEAF8D89386B1C2B0,
+	FsmPatchDone_UniFramework_Machine_IStateNode_OnUpdate_mA0BA2FF24E09DCAF24FC0E03C1B72A1C8E4B792F,
+	FsmPatchDone_UniFramework_Machine_IStateNode_OnExit_m2B1BC2E929CD87CA60D9DA795AAF94BF9BB9ED2B,
+	FsmPatchDone__ctor_m483D8E195DE84CCD7BFA3E98143E6AC9B5B04061,
+	FsmPatchPrepare_UniFramework_Machine_IStateNode_OnCreate_mC639A3F9A8B2913A75D789C41E29B5BD1935CCAA,
+	FsmPatchPrepare_UniFramework_Machine_IStateNode_OnEnter_m81086DD5CBE19FF2D0EC0E6CC14C2E61DBB35985,
+	FsmPatchPrepare_UniFramework_Machine_IStateNode_OnUpdate_m31FB828C27EF22E82B0A87A2BD222893DC2FB3D7,
+	FsmPatchPrepare_UniFramework_Machine_IStateNode_OnExit_mE5E9129029520BFBF81FC2928FAEC7541E46B973,
+	FsmPatchPrepare__ctor_m7DA6FF6F76A876C545A12EDB64162F53F21BB917,
+	FsmUpdateManifest_UniFramework_Machine_IStateNode_OnCreate_m166C92ACFAD517F2990AA97937CBC6C2D20B43A9,
+	FsmUpdateManifest_UniFramework_Machine_IStateNode_OnEnter_m4A63061E30E250B0B8D5BA474112C644685C6248,
+	FsmUpdateManifest_UniFramework_Machine_IStateNode_OnUpdate_m95A734CE0BBAF85C72D502308D1FCEEB78A611F9,
+	FsmUpdateManifest_UniFramework_Machine_IStateNode_OnExit_m97A57C6B9B563B998A16DE074AD2C7B833CBCFC9,
+	FsmUpdateManifest_UpdateManifest_m352EBCF96A12B036403BF6EDD66A77D82E759928,
+	FsmUpdateManifest__ctor_m416AC73361705B07B29B6E27A71A18EEA0517C2B,
+	U3CUpdateManifestU3Ed__5__ctor_mC6827625ACA98CA50C6868E0776753F4B40B873E,
+	U3CUpdateManifestU3Ed__5_System_IDisposable_Dispose_m9C690F08381AA1EF0D9B80381F0849C74439F5E4,
+	U3CUpdateManifestU3Ed__5_MoveNext_mF6862C6EC3ED18EF1E44AE5190DF248AC7C33DE0,
+	U3CUpdateManifestU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m67CCAE7338D18B3B484223BFFD677C1C7A6B7AEB,
+	U3CUpdateManifestU3Ed__5_System_Collections_IEnumerator_Reset_m56DD2962DE54C63EAB4A8F4AE4354713721F7BBE,
+	U3CUpdateManifestU3Ed__5_System_Collections_IEnumerator_get_Current_mD98AF779FF5B5C48398167A0E962ADA5D356CD97,
+	FsmUpdateVersion_UniFramework_Machine_IStateNode_OnCreate_m06379A3B5C30A3B2CBA3F05BD8FE50B423A89A3E,
+	FsmUpdateVersion_UniFramework_Machine_IStateNode_OnEnter_m06EE9C67CC59C141FC8217D0E16CD576B82A1C91,
+	FsmUpdateVersion_UniFramework_Machine_IStateNode_OnUpdate_m6BC8F9C4911DFFD604396C2861D7D158FBC83593,
+	FsmUpdateVersion_UniFramework_Machine_IStateNode_OnExit_m8B27FD0C2CF80C471D9AA6F6DB7C64B8041D5E58,
+	FsmUpdateVersion_GetStaticVersion_mDC60F4C2DC9FB868E5699C442A99E419EE9BD336,
+	FsmUpdateVersion__ctor_m064D7840234BE986484CCCC310E45C02CB431E0D,
+	U3CGetStaticVersionU3Ed__5__ctor_m599743AC8AF895B5DAEAE0C031BA22630EB9C371,
+	U3CGetStaticVersionU3Ed__5_System_IDisposable_Dispose_m5758FD1F269B0EDAF2E6EABC5A8975494A388FD6,
+	U3CGetStaticVersionU3Ed__5_MoveNext_m716BC5C7C4FF97B2A00F3A8C8D2492DF4EF55E71,
+	U3CGetStaticVersionU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA3354E9127630411488CE112C5DE1777657EDC0C,
+	U3CGetStaticVersionU3Ed__5_System_Collections_IEnumerator_Reset_m4B011F057DDD138BE8E3B93DBCAF10B74758163B,
+	U3CGetStaticVersionU3Ed__5_System_Collections_IEnumerator_get_Current_mF54EF7F4678C60FA419B6A733375E2A585CCDA1C,
+	PatchManager_set_PlayMode_m7035AE13BE4FD0255645A55A8453F746C71E7729,
+	PatchManager_get_PlayMode_m82A84F614FA86C7B63283872AFBEEAAA3F8371FD,
+	PatchManager_set_PackageVersion_mE5D8DBC27220A2DC2468E51FEE0A873B6A8CDC28,
+	PatchManager_get_PackageVersion_m987DC22C7E29CE5880501C81CB8D8EC35BDB6F4B,
+	PatchManager_set_Downloader_m502047C425B985DE169D9EDC09B37B37186D2037,
+	PatchManager_get_Downloader_m64AF4F2381745D3A2BE02AC94691CB68582A5C8D,
+	PatchManager_UniFramework_Module_IModule_OnCreate_m722DABE389B0910E339BCD20DFE6E8418F07CCFD,
+	PatchManager_UniFramework_Module_IModule_OnDestroy_mAAE82E880C85E1E95A9C7DAE69BDC1CB1E3202FF,
+	PatchManager_UniFramework_Module_IModule_OnUpdate_m4FE79409EDB91F74C8DDAF3A495DA63B160743A0,
+	PatchManager_Run_mAF20426055C2CA3C74746C9C0266595D183465CC,
+	PatchManager_OnHandleEventMessage_mABA6CDF4EAD6062E2626794221CDF53D91FFC051,
+	PatchManager__ctor_m54E7EF17E8AA09CF7BDEAB27261A5D069A635A0A,
+	PatchWindow_Awake_m4AE7C2E50EC12691B46D92E59C39B4D19F34FDA4,
+	PatchWindow_OnDestroy_m3D0F2942CCC31682AA817EDC5E11F7A0410E0D05,
+	PatchWindow_OnHandleEventMessage_mDB26AB9E6E23EDF8BDD075A648D8030C7508D457,
+	PatchWindow_ShowMessageBox_m2EF41C080F87A4209C408595D31DD56EC8B0CF39,
+	PatchWindow__ctor_m9B36F9F5C4210801D1C93945007A9CFEA9C86AA1,
+	MessageBox_get_ActiveSelf_m13D06932DF86ECC244782FC0FAEB8F58B86BCE85,
+	MessageBox_Create_m1286B4B2884C0407A11E1FFBBE003831B8A96735,
+	MessageBox_Show_m649B3FE5C1FBA9074058C463B874345AF2954491,
+	MessageBox_Hide_mD1A361539BAE960221A8CFF6DD61F3711B75AEA1,
+	MessageBox_OnClickYes_mF7118012BDDF4F4B800E3FBD17C891F1F8B42AE8,
+	MessageBox__ctor_m99CF3D7B88542E8F94126BC4C819A0D01B0CB7C1,
+	U3CU3Ec__cctor_m35B4AA8CEDA79DCC0E4015F85F9DC9A1392AD2A5,
+	U3CU3Ec__ctor_m76A4F4CD21BB68375B27A01345C01455B599A10C,
+	U3CU3Ec_U3COnHandleEventMessageU3Eb__8_0_m42D6E4890B001E95349CA3C02412AE0DD063A9AD,
+	U3CU3Ec_U3COnHandleEventMessageU3Eb__8_1_m62DF5CCDCAF37383D4A8828AD8E4DECCB511C2B6,
+	U3CU3Ec_U3COnHandleEventMessageU3Eb__8_2_mCFEFC972F6A55C24CCB30B7DF1E818963A675B71,
+	U3CU3Ec_U3COnHandleEventMessageU3Eb__8_3_m1B326F289A3089A9A17C3331063B52A62DB46F30,
+	U3CU3Ec_U3COnHandleEventMessageU3Eb__8_4_mF0D5E798E888DEB67FA4B7CFEEFBBFDFE94A9413,
+};
+static const int32_t s_InvokerIndices[158] = 
+{
+	3691,
+	3691,
+	3691,
+	3691,
+	5780,
+	3691,
+	5666,
+	3691,
+	5246,
+	3691,
+	4411,
+	3691,
+	5780,
+	3691,
+	5780,
+	3691,
+	5271,
+	3691,
+	3691,
+	5780,
+	3691,
+	5780,
+	3691,
+	5780,
+	3691,
+	5780,
+	3691,
+	5780,
+	3691,
+	5753,
+	5522,
+	5780,
+	5780,
+	3691,
+	5780,
+	3691,
+	170,
+	1742,
+	797,
+	3027,
+	3691,
+	3691,
+	3691,
+	3027,
+	3691,
+	3027,
+	3691,
+	3691,
+	3691,
+	3603,
+	3691,
+	3008,
+	3691,
+	3538,
+	3603,
+	3691,
+	3603,
+	3027,
+	3691,
+	3691,
+	3691,
+	3603,
+	3691,
+	3008,
+	3691,
+	3538,
+	3603,
+	3691,
+	3603,
+	3027,
+	3691,
+	3691,
+	3691,
+	3691,
+	3027,
+	3691,
+	3691,
+	3691,
+	3603,
+	3603,
+	3691,
+	2199,
+	3691,
+	2806,
+	2693,
+	2693,
+	3679,
+	3691,
+	3008,
+	3691,
+	3538,
+	3603,
+	3691,
+	3603,
+	3027,
+	3691,
+	3691,
+	3691,
+	3691,
+	3027,
+	3691,
+	3691,
+	3691,
+	3691,
+	3027,
+	3691,
+	3691,
+	3691,
+	3603,
+	3691,
+	3008,
+	3691,
+	3538,
+	3603,
+	3691,
+	3603,
+	3027,
+	3691,
+	3691,
+	3691,
+	3603,
+	3691,
+	3008,
+	3691,
+	3538,
+	3603,
+	3691,
+	3603,
+	3008,
+	3580,
+	3027,
+	3603,
+	3027,
+	3603,
+	3027,
+	3691,
+	3691,
+	3008,
+	3027,
+	3691,
+	3691,
+	3691,
+	3027,
+	1747,
+	3691,
+	3538,
+	3027,
+	1747,
+	3691,
+	3691,
+	3691,
+	5780,
+	3691,
+	3691,
+	3691,
+	3691,
+	3691,
+	3691,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Game_AOT_CodeGenModule;
+const Il2CppCodeGenModule g_Game_AOT_CodeGenModule = 
+{
+	"Game.AOT.dll",
+	158,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
